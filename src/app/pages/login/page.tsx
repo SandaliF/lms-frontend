@@ -103,7 +103,7 @@ export default function Login(props: LoginProps) {
           </div>
           
           <div className="text-sm">
-            <Link href="/forgot-password" className="text-gray-600 hover:text-gray-800">
+            <Link href="/pages/forgotpassword" className="text-gray-600 hover:text-gray-800">
               Forgot Password?
             </Link>
           </div>
@@ -121,7 +121,7 @@ export default function Login(props: LoginProps) {
 
         <div className="mt-6 text-center text-sm">
           Don't have an account?{' '}
-          <Link href="/register" className="text-blue-600 hover:text-blue-500">
+          <Link href="/pages/register" className="text-blue-600 hover:text-blue-500">
             Sign up
           </Link>
         </div>

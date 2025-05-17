@@ -134,10 +134,10 @@ export default function ContentViewer(props: ContentViewerProps) {
         
         <div className="mb-6">
           <Link 
-            href="/dashboard" 
+            href="/" 
             className="text-blue-600 hover:text-blue-500 text-sm"
           >
-            ← Back to Dashboard
+            ← Back to Home
           </Link>
         </div>
 

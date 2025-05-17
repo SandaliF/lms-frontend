@@ -52,7 +52,7 @@ export default function Register(props: RegisterProps) {
         </div> */}
         
         <h2 className="text-center text-xl font-semibold mb-6">
-          Signup Your Account
+          Sign up Your Account
         </h2>
 
         {success ? (
@@ -140,7 +140,7 @@ export default function Register(props: RegisterProps) {
         
         <div className="mt-6 text-center text-sm">
           Already have an account?{' '}
-          <Link href="/login" className="text-blue-600 hover:text-blue-500">
+          <Link href="/pages/login" className="text-blue-600 hover:text-blue-500">
             Sign in
           </Link>
         </div>
